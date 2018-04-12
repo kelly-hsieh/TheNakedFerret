@@ -8,6 +8,7 @@
 
 import UIKit
 
+
 class ViewController: UIViewController {
 
     override func viewDidLoad() {
@@ -19,7 +20,21 @@ class ViewController: UIViewController {
         super.didReceiveMemoryWarning()
         // Dispose of any resources that can be recreated.
     }
+    
+    //Mark: Start Game and Segue to Page
 
-
+    @IBAction func StartGame(_ sender: UIButton) {
+        performSegue(withIdentifier: "startGame", sender: AnyObject?.self)
+    }
+    
+    func performSegue(segue: UIStoryboardSegue, sender: AnyObject?) {
+        if segue.identifier == "startGame" {
+            let pageController = segue.destination as? PageController
+            
+        }
+    }
 }
+
+
+
 
