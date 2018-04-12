@@ -1,0 +1,6 @@
+framework module Pods_The_Naked_FerretTests {
+  umbrella header "Pods-The Naked FerretTests-umbrella.h"
+
+  export *
+  module * { export * }
+}
