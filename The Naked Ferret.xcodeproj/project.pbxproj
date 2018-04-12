@@ -1,0 +1,580 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		A2A86A1F207FE0C500EDDEF6 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A2A86A1E207FE0C500EDDEF6 /* AppDelegate.swift */; };
+		A2A86A21207FE0C500EDDEF6 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A2A86A20207FE0C500EDDEF6 /* ViewController.swift */; };
+		A2A86A24207FE0C500EDDEF6 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A2A86A22207FE0C500EDDEF6 /* Main.storyboard */; };
+		A2A86A27207FE0C500EDDEF6 /* The_Naked_Ferret.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = A2A86A25207FE0C500EDDEF6 /* The_Naked_Ferret.xcdatamodeld */; };
+		A2A86A29207FE0C500EDDEF6 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A2A86A28207FE0C500EDDEF6 /* Assets.xcassets */; };
+		A2A86A2C207FE0C500EDDEF6 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A2A86A2A207FE0C500EDDEF6 /* LaunchScreen.storyboard */; };
+		A2A86A37207FE0C600EDDEF6 /* The_Naked_FerretTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A2A86A36207FE0C600EDDEF6 /* The_Naked_FerretTests.swift */; };
+		A2A86A42207FE0C600EDDEF6 /* The_Naked_FerretUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A2A86A41207FE0C600EDDEF6 /* The_Naked_FerretUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		A2A86A33207FE0C600EDDEF6 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A2A86A13207FE0C500EDDEF6 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A2A86A1A207FE0C500EDDEF6;
+			remoteInfo = "The Naked Ferret";
+		};
+		A2A86A3E207FE0C600EDDEF6 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A2A86A13207FE0C500EDDEF6 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A2A86A1A207FE0C500EDDEF6;
+			remoteInfo = "The Naked Ferret";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		A2A86A1B207FE0C500EDDEF6 /* The Naked Ferret.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "The Naked Ferret.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		A2A86A1E207FE0C500EDDEF6 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		A2A86A20207FE0C500EDDEF6 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		A2A86A23207FE0C500EDDEF6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		A2A86A26207FE0C500EDDEF6 /* The_Naked_Ferret.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = The_Naked_Ferret.xcdatamodel; sourceTree = "<group>"; };
+		A2A86A28207FE0C500EDDEF6 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		A2A86A2B207FE0C500EDDEF6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		A2A86A2D207FE0C500EDDEF6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A2A86A32207FE0C600EDDEF6 /* The Naked FerretTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "The Naked FerretTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		A2A86A36207FE0C600EDDEF6 /* The_Naked_FerretTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = The_Naked_FerretTests.swift; sourceTree = "<group>"; };
+		A2A86A38207FE0C600EDDEF6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A2A86A3D207FE0C600EDDEF6 /* The Naked FerretUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "The Naked FerretUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		A2A86A41207FE0C600EDDEF6 /* The_Naked_FerretUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = The_Naked_FerretUITests.swift; sourceTree = "<group>"; };
+		A2A86A43207FE0C600EDDEF6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		A2A86A18207FE0C500EDDEF6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A2A86A2F207FE0C600EDDEF6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A2A86A3A207FE0C600EDDEF6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		A2A86A12207FE0C500EDDEF6 = {
+			isa = PBXGroup;
+			children = (
+				A2A86A1D207FE0C500EDDEF6 /* The Naked Ferret */,
+				A2A86A35207FE0C600EDDEF6 /* The Naked FerretTests */,
+				A2A86A40207FE0C600EDDEF6 /* The Naked FerretUITests */,
+				A2A86A1C207FE0C500EDDEF6 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		A2A86A1C207FE0C500EDDEF6 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				A2A86A1B207FE0C500EDDEF6 /* The Naked Ferret.app */,
+				A2A86A32207FE0C600EDDEF6 /* The Naked FerretTests.xctest */,
+				A2A86A3D207FE0C600EDDEF6 /* The Naked FerretUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		A2A86A1D207FE0C500EDDEF6 /* The Naked Ferret */ = {
+			isa = PBXGroup;
+			children = (
+				A2A86A1E207FE0C500EDDEF6 /* AppDelegate.swift */,
+				A2A86A20207FE0C500EDDEF6 /* ViewController.swift */,
+				A2A86A22207FE0C500EDDEF6 /* Main.storyboard */,
+				A2A86A28207FE0C500EDDEF6 /* Assets.xcassets */,
+				A2A86A2A207FE0C500EDDEF6 /* LaunchScreen.storyboard */,
+				A2A86A2D207FE0C500EDDEF6 /* Info.plist */,
+				A2A86A25207FE0C500EDDEF6 /* The_Naked_Ferret.xcdatamodeld */,
+			);
+			path = "The Naked Ferret";
+			sourceTree = "<group>";
+		};
+		A2A86A35207FE0C600EDDEF6 /* The Naked FerretTests */ = {
+			isa = PBXGroup;
+			children = (
+				A2A86A36207FE0C600EDDEF6 /* The_Naked_FerretTests.swift */,
+				A2A86A38207FE0C600EDDEF6 /* Info.plist */,
+			);
+			path = "The Naked FerretTests";
+			sourceTree = "<group>";
+		};
+		A2A86A40207FE0C600EDDEF6 /* The Naked FerretUITests */ = {
+			isa = PBXGroup;
+			children = (
+				A2A86A41207FE0C600EDDEF6 /* The_Naked_FerretUITests.swift */,
+				A2A86A43207FE0C600EDDEF6 /* Info.plist */,
+			);
+			path = "The Naked FerretUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		A2A86A1A207FE0C500EDDEF6 /* The Naked Ferret */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A2A86A46207FE0C600EDDEF6 /* Build configuration list for PBXNativeTarget "The Naked Ferret" */;
+			buildPhases = (
+				A2A86A17207FE0C500EDDEF6 /* Sources */,
+				A2A86A18207FE0C500EDDEF6 /* Frameworks */,
+				A2A86A19207FE0C500EDDEF6 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "The Naked Ferret";
+			productName = "The Naked Ferret";
+			productReference = A2A86A1B207FE0C500EDDEF6 /* The Naked Ferret.app */;
+			productType = "com.apple.product-type.application";
+		};
+		A2A86A31207FE0C600EDDEF6 /* The Naked FerretTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A2A86A49207FE0C600EDDEF6 /* Build configuration list for PBXNativeTarget "The Naked FerretTests" */;
+			buildPhases = (
+				A2A86A2E207FE0C600EDDEF6 /* Sources */,
+				A2A86A2F207FE0C600EDDEF6 /* Frameworks */,
+				A2A86A30207FE0C600EDDEF6 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A2A86A34207FE0C600EDDEF6 /* PBXTargetDependency */,
+			);
+			name = "The Naked FerretTests";
+			productName = "The Naked FerretTests";
+			productReference = A2A86A32207FE0C600EDDEF6 /* The Naked FerretTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		A2A86A3C207FE0C600EDDEF6 /* The Naked FerretUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A2A86A4C207FE0C600EDDEF6 /* Build configuration list for PBXNativeTarget "The Naked FerretUITests" */;
+			buildPhases = (
+				A2A86A39207FE0C600EDDEF6 /* Sources */,
+				A2A86A3A207FE0C600EDDEF6 /* Frameworks */,
+				A2A86A3B207FE0C600EDDEF6 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A2A86A3F207FE0C600EDDEF6 /* PBXTargetDependency */,
+			);
+			name = "The Naked FerretUITests";
+			productName = "The Naked FerretUITests";
+			productReference = A2A86A3D207FE0C600EDDEF6 /* The Naked FerretUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		A2A86A13207FE0C500EDDEF6 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0910;
+				LastUpgradeCheck = 0910;
+				ORGANIZATIONNAME = "Kelly Hsieh";
+				TargetAttributes = {
+					A2A86A1A207FE0C500EDDEF6 = {
+						CreatedOnToolsVersion = 9.1;
+						ProvisioningStyle = Automatic;
+					};
+					A2A86A31207FE0C600EDDEF6 = {
+						CreatedOnToolsVersion = 9.1;
+						ProvisioningStyle = Automatic;
+						TestTargetID = A2A86A1A207FE0C500EDDEF6;
+					};
+					A2A86A3C207FE0C600EDDEF6 = {
+						CreatedOnToolsVersion = 9.1;
+						ProvisioningStyle = Automatic;
+						TestTargetID = A2A86A1A207FE0C500EDDEF6;
+					};
+				};
+			};
+			buildConfigurationList = A2A86A16207FE0C500EDDEF6 /* Build configuration list for PBXProject "The Naked Ferret" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = A2A86A12207FE0C500EDDEF6;
+			productRefGroup = A2A86A1C207FE0C500EDDEF6 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				A2A86A1A207FE0C500EDDEF6 /* The Naked Ferret */,
+				A2A86A31207FE0C600EDDEF6 /* The Naked FerretTests */,
+				A2A86A3C207FE0C600EDDEF6 /* The Naked FerretUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		A2A86A19207FE0C500EDDEF6 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A2A86A2C207FE0C500EDDEF6 /* LaunchScreen.storyboard in Resources */,
+				A2A86A29207FE0C500EDDEF6 /* Assets.xcassets in Resources */,
+				A2A86A24207FE0C500EDDEF6 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A2A86A30207FE0C600EDDEF6 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A2A86A3B207FE0C600EDDEF6 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		A2A86A17207FE0C500EDDEF6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A2A86A21207FE0C500EDDEF6 /* ViewController.swift in Sources */,
+				A2A86A27207FE0C500EDDEF6 /* The_Naked_Ferret.xcdatamodeld in Sources */,
+				A2A86A1F207FE0C500EDDEF6 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A2A86A2E207FE0C600EDDEF6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A2A86A37207FE0C600EDDEF6 /* The_Naked_FerretTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A2A86A39207FE0C600EDDEF6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A2A86A42207FE0C600EDDEF6 /* The_Naked_FerretUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		A2A86A34207FE0C600EDDEF6 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = A2A86A1A207FE0C500EDDEF6 /* The Naked Ferret */;
+			targetProxy = A2A86A33207FE0C600EDDEF6 /* PBXContainerItemProxy */;
+		};
+		A2A86A3F207FE0C600EDDEF6 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = A2A86A1A207FE0C500EDDEF6 /* The Naked Ferret */;
+			targetProxy = A2A86A3E207FE0C600EDDEF6 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		A2A86A22207FE0C500EDDEF6 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A2A86A23207FE0C500EDDEF6 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		A2A86A2A207FE0C500EDDEF6 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A2A86A2B207FE0C500EDDEF6 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		A2A86A44207FE0C600EDDEF6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		A2A86A45207FE0C600EDDEF6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		A2A86A47207FE0C600EDDEF6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 29V5E7CLM2;
+				INFOPLIST_FILE = "The Naked Ferret/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.KellyHsieh.The-Naked-Ferret";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		A2A86A48207FE0C600EDDEF6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 29V5E7CLM2;
+				INFOPLIST_FILE = "The Naked Ferret/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.KellyHsieh.The-Naked-Ferret";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		A2A86A4A207FE0C600EDDEF6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 29V5E7CLM2;
+				INFOPLIST_FILE = "The Naked FerretTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.KellyHsieh.The-Naked-FerretTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/The Naked Ferret.app/The Naked Ferret";
+			};
+			name = Debug;
+		};
+		A2A86A4B207FE0C600EDDEF6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 29V5E7CLM2;
+				INFOPLIST_FILE = "The Naked FerretTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.KellyHsieh.The-Naked-FerretTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/The Naked Ferret.app/The Naked Ferret";
+			};
+			name = Release;
+		};
+		A2A86A4D207FE0C600EDDEF6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 29V5E7CLM2;
+				INFOPLIST_FILE = "The Naked FerretUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.KellyHsieh.The-Naked-FerretUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "The Naked Ferret";
+			};
+			name = Debug;
+		};
+		A2A86A4E207FE0C600EDDEF6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 29V5E7CLM2;
+				INFOPLIST_FILE = "The Naked FerretUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.KellyHsieh.The-Naked-FerretUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "The Naked Ferret";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		A2A86A16207FE0C500EDDEF6 /* Build configuration list for PBXProject "The Naked Ferret" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A2A86A44207FE0C600EDDEF6 /* Debug */,
+				A2A86A45207FE0C600EDDEF6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A2A86A46207FE0C600EDDEF6 /* Build configuration list for PBXNativeTarget "The Naked Ferret" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A2A86A47207FE0C600EDDEF6 /* Debug */,
+				A2A86A48207FE0C600EDDEF6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A2A86A49207FE0C600EDDEF6 /* Build configuration list for PBXNativeTarget "The Naked FerretTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A2A86A4A207FE0C600EDDEF6 /* Debug */,
+				A2A86A4B207FE0C600EDDEF6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A2A86A4C207FE0C600EDDEF6 /* Build configuration list for PBXNativeTarget "The Naked FerretUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A2A86A4D207FE0C600EDDEF6 /* Debug */,
+				A2A86A4E207FE0C600EDDEF6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		A2A86A25207FE0C500EDDEF6 /* The_Naked_Ferret.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				A2A86A26207FE0C500EDDEF6 /* The_Naked_Ferret.xcdatamodel */,
+			);
+			currentVersion = A2A86A26207FE0C500EDDEF6 /* The_Naked_Ferret.xcdatamodel */;
+			path = The_Naked_Ferret.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = A2A86A13207FE0C500EDDEF6 /* Project object */;
+}
