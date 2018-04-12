@@ -10,11 +10,19 @@ import UIKit
 
 
 class ViewController: UIViewController {
-
+    
+    override var prefersStatusBarHidden: Bool {
+        return true
+    }
+    
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view, typically from a nib.
+        self.navigationController?.isNavigationBarHidden = true //the back button segueway has been hidden
+    
     }
+    
+   
 
     override func didReceiveMemoryWarning() {
         super.didReceiveMemoryWarning()
@@ -34,7 +42,7 @@ class ViewController: UIViewController {
         }
     }
 }
-//
+
 
 
 
